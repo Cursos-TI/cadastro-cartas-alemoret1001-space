@@ -13,7 +13,7 @@ int main() {
   char cod_carta01[30];
   char cidade01[30];
   int populacao01;
-  float area_km²01;
+  float area_km2_01;
   float pib01;
   int pontos_turisticos01;
 
@@ -23,7 +23,7 @@ int main() {
   char cod_carta02[30];
   char cidade02[30];
   int populacao02;
-  float area_km²02;
+  float area_km2_02;
   float pib02;
   int pontos_turisticos02;
 
@@ -44,7 +44,7 @@ printf("QUANTOS HABITANTES TEM EM SUA CIDADE: ");
 scanf("%d", &populacao01);
 
 printf("QUAL O TAMANHO DA AREA EM km² DA SUA CIDADE: ");
-scanf("%f", &area_km²01);
+scanf("%f", &area_km2_01);
 
 printf("QUAL O PIB DA SUA CIDADE: ");
 scanf("%f", &pib01);
@@ -68,7 +68,7 @@ printf("QUANTOS HABITANTES TEM EM SUA CIDADE: ");
 scanf("%d", &populacao02);
 
 printf("QUAL O TAMANHO DA AREA EM km² DA SUA CIDADE: ");
-scanf("%f", &area_km²02);
+scanf("%f", &area_km2_02);
 
 printf("QUAL O PIB DA SUA CIDADE: ");
 scanf("%f", &pib02);
@@ -84,7 +84,7 @@ printf("INCIAL DO ESTADO ESCOLHIDO: %c\n", estado01);
 printf("COD DA CARTA E: %s\n", cod_carta01);
 printf("CIDADE SELECIONADA: %s\n", cidade01);
 printf("QUANTIDADE DE HABITANTES: %d\n", populacao01);
-printf("AREA EM km²: %.2f km²\n", area_km²01);
+printf("AREA EM km²: %.2f km²\n", area_km2_01);
 printf("PIB: %.2f\n", pib01);
 printf("N° PONTOS TURISTICOS: %d\n", pontos_turisticos01);
 
@@ -96,7 +96,7 @@ printf("INCIAL DO ESTADO ESCOLHIDO: %c\n", estado02);
 printf("COD DA CARTA E: %s\n", cod_carta02);
 printf("CIDADE SELECIONADA: %s\n", cidade02);
 printf("QUANTIDADE DE HABITANTES: %d\n", populacao02);
-printf("AREA EM km²: %.2f km²\n", area_km²02);
+printf("AREA EM km²: %.2f km²\n", area_km2_02);
 printf("PIB: %.2f\n", pib02);
 printf("N° PONTOS TURISTICOS: %d\n", pontos_turisticos02);
 
@@ -105,8 +105,8 @@ printf("\n================================================\n");
 
 //Soma de todas as variáveis númericas para definição da carta vencedora.
 
-float total_carta01 = (float) populacao01 + area_km²01 + pib01 + (float) pontos_turisticos01;
-float total_carta02 = (float) populacao02 + area_km²02 + pib02 + (float) pontos_turisticos02;
+float total_carta01 = (float) populacao01 + area_km2_01 + pib01 + (float) pontos_turisticos01;
+float total_carta02 = (float) populacao02 + area_km2_02 + pib02 + (float) pontos_turisticos02;
 
 printf("\n========= RESULTADO DO DUELO =========\n");
 printf("Poder Total Carta 1: %.2f\n", total_carta01);
